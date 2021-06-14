@@ -1,18 +1,36 @@
 .list-container {
-    display: flex;
+    display: grid;
     justify-content: center;
+    align-items:center;
+    grid-template-columns:auto auto auto;
+    grid-gap:10px;
     width: auto;
     height: auto;
+   
 }
 
 .list {
-    display: grid;
-    align-items: center;
-    grid-template-columns: auto auto auto auto;
-    grid-gap:10px;
+    
+   
+   
 }
 
 .list img {
-    width: 250px;
-    height: auto;
+   height:125px;
+   width:85px;
+}
+.list-names {
+    text-align: center;
+}
+.list-names a{
+    text-decoration: none;
+    color:black;
+}
+.list-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
 }
