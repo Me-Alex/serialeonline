@@ -1,212 +1,69 @@
-
 <CATALOG>
-    <CD>
-        <TITLE>Bright</TITLE>
+
+    <MOVIE>
+        <TITLE>Brightburn</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1985</YEAR>
+        <URL>https://upload.wikimedia.org/wikipedia/en/f/fa/Brightburn_film_poster.png</URL>
+        <ABOUT>Brightburn is a 2019 American superhero horror film directed by David Yarovesky, written by Mark Gunn and Brian Gunn, and produced by James Gunn and Kenneth Huang. It stars Elizabeth Banks, David Denman, Jackson A. Dunn, Matt Jones and Meredith Hagner. It follows Brandon Breyer, a young boy of extraterrestrial origin reared on Earth who realizes he has superpowers. Upon learning of them and being brainwashed by the ship he arrived in, Brandon rejects his humanity and turns to evil, opting to terrorize his hometown, including his parents. The film was produced and financed by Screen Gems, Stage 6 Films, The H Collective and Troll Court Entertainment.Brightburn was announced as Untitled James Gunn Horror Project in December 2017. Aside from Gunn producing the film, his cousin Mark and brother Brian Gunn wrote the screenplay. Principal photography began in March 2018 and wrapped in May of that same year. It adapts the concept of Superman for explicit horror.Brightburn was released in the United States on May 24, 2019 by Sony Pictures Releasing. It received mixed reviews from critics, who felt that the film did not deliver on the full potential of its premise. The film earned $32 million against a budget of $6–12 million.
+        </ABOUT>
+    </MOVIE>
+    <MOVIE>
+        <TITLE>Brightburn</TITLE>
         <ARTIST>Bob Dylan</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>Columbia</COMPANY>
         <PRICE>10.90</PRICE>
         <YEAR>1985</YEAR>
         <URL>ceva</URL>
-    </CD>
-    <CD>
-        <TITLE>Hide your heart</TITLE>
-        <ARTIST>Bonnie Tyler</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>CBS Records</COMPANY>
-        <PRICE>9.90</PRICE>
-        <YEAR>1988</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Greatest Hits</TITLE>
-        <ARTIST>Dolly Parton</ARTIST>
-        <COUNTRY>USA</COUNTRY>
-        <COMPANY>RCA</COMPANY>
-        <PRICE>9.90</PRICE>
-        <YEAR>1982</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Still got the blues</TITLE>
-        <ARTIST>Gary Moore</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Virgin records</COMPANY>
-        <PRICE>10.20</PRICE>
-        <YEAR>1990</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Eros</TITLE>
-        <ARTIST>Eros Ramazzotti</ARTIST>
-        <COUNTRY>EU</COUNTRY>
-        <COMPANY>BMG</COMPANY>
-        <PRICE>9.90</PRICE>
-        <YEAR>1997</YEAR>
-    </CD>
-    <CD>
-        <TITLE>One night only</TITLE>
-        <ARTIST>Bee Gees</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Polydor</COMPANY>
-        <PRICE>10.90</PRICE>
-        <YEAR>1998</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Sylvias Mother</TITLE>
-        <ARTIST>Dr.Hook</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>CBS</COMPANY>
-        <PRICE>8.10</PRICE>
-        <YEAR>1973</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Maggie May</TITLE>
-        <ARTIST>Rod Stewart</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Pickwick</COMPANY>
-        <PRICE>8.50</PRICE>
-        <YEAR>1990</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Romanza</TITLE>
-        <ARTIST>Andrea Bocelli</ARTIST>
-        <COUNTRY>EU</COUNTRY>
-        <COMPANY>Polydor</COMPANY>
-        <PRICE>10.80</PRICE>
-        <YEAR>1996</YEAR>
-    </CD>
-    <CD>
-        <TITLE>When a man loves a woman</TITLE>
-        <ARTIST>Percy Sledge</ARTIST>
-        <COUNTRY>USA</COUNTRY>
-        <COMPANY>Atlantic</COMPANY>
-        <PRICE>8.70</PRICE>
-        <YEAR>1987</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Black angel</TITLE>
-        <ARTIST>Savage Rose</ARTIST>
-        <COUNTRY>EU</COUNTRY>
-        <COMPANY>Mega</COMPANY>
-        <PRICE>10.90</PRICE>
-        <YEAR>1995</YEAR>
-    </CD>
-    <CD>
-        <TITLE>1999 Grammy Nominees</TITLE>
-        <ARTIST>Many</ARTIST>
-        <COUNTRY>USA</COUNTRY>
-        <COMPANY>Grammy</COMPANY>
-        <PRICE>10.20</PRICE>
-        <YEAR>1999</YEAR>
-    </CD>
-    <CD>
-        <TITLE>For the good times</TITLE>
-        <ARTIST>Kenny Rogers</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Mucik Master</COMPANY>
-        <PRICE>8.70</PRICE>
-        <YEAR>1995</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Big Willie style</TITLE>
-        <ARTIST>Will Smith</ARTIST>
+        <ABOUT>Brightburn is a 2019 American superhero horror film directed by David Yarovesky, written by Mark Gunn and Brian Gunn, and produced by James Gunn and Kenneth Huang. It stars Elizabeth Banks, David Denman, Jackson A. Dunn, Matt Jones and Meredith Hagner. It follows Brandon Breyer, a young boy of extraterrestrial origin reared on Earth who realizes he has superpowers. Upon learning of them and being brainwashed by the ship he arrived in, Brandon rejects his humanity and turns to evil, opting to terrorize his hometown, including his parents. The film was produced and financed by Screen Gems, Stage 6 Films, The H Collective and Troll Court Entertainment.Brightburn was announced as Untitled James Gunn Horror Project in December 2017. Aside from Gunn producing the film, his cousin Mark and brother Brian Gunn wrote the screenplay. Principal photography began in March 2018 and wrapped in May of that same year. It adapts the concept of Superman for explicit horror.Brightburn was released in the United States on May 24, 2019 by Sony Pictures Releasing. It received mixed reviews from critics, who felt that the film did not deliver on the full potential of its premise. The film earned $32 million against a budget of $6–12 million.
+        </ABOUT>
+    </MOVIE>
+    <MOVIE>
+        <TITLE>Brightburn</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
         <COUNTRY>USA</COUNTRY>
         <COMPANY>Columbia</COMPANY>
-        <PRICE>9.90</PRICE>
-        <YEAR>1997</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Tupelo Honey</TITLE>
-        <ARTIST>Van Morrison</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Polydor</COMPANY>
-        <PRICE>8.20</PRICE>
-        <YEAR>1971</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Soulsville</TITLE>
-        <ARTIST>Jorn Hoel</ARTIST>
-        <COUNTRY>Norway</COUNTRY>
-        <COMPANY>WEA</COMPANY>
-        <PRICE>7.90</PRICE>
-        <YEAR>1996</YEAR>
-    </CD>
-    <CD>
-        <TITLE>The very best of</TITLE>
-        <ARTIST>Cat Stevens</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Island</COMPANY>
-        <PRICE>8.90</PRICE>
-        <YEAR>1990</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Stop</TITLE>
-        <ARTIST>Sam Brown</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>A and M</COMPANY>
-        <PRICE>8.90</PRICE>
-        <YEAR>1988</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Bridge of Spies</TITLE>
-        <ARTIST>T'Pau</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Siren</COMPANY>
-        <PRICE>7.90</PRICE>
-        <YEAR>1987</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Private Dancer</TITLE>
-        <ARTIST>Tina Turner</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>Capitol</COMPANY>
-        <PRICE>8.90</PRICE>
-        <YEAR>1983</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Midt om natten</TITLE>
-        <ARTIST>Kim Larsen</ARTIST>
-        <COUNTRY>EU</COUNTRY>
-        <COMPANY>Medley</COMPANY>
-        <PRICE>7.80</PRICE>
-        <YEAR>1983</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Pavarotti Gala Concert</TITLE>
-        <ARTIST>Luciano Pavarotti</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>DECCA</COMPANY>
-        <PRICE>9.90</PRICE>
-        <YEAR>1991</YEAR>
-    </CD>
-    <CD>
-        <TITLE>The dock of the bay</TITLE>
-        <ARTIST>Otis Redding</ARTIST>
-        <COUNTRY>USA</COUNTRY>
-        <COMPANY>Stax Records</COMPANY>
-        <PRICE>7.90</PRICE>
-        <YEAR>1968</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Picture book</TITLE>
-        <ARTIST>Simply Red</ARTIST>
-        <COUNTRY>EU</COUNTRY>
-        <COMPANY>Elektra</COMPANY>
-        <PRICE>7.20</PRICE>
+        <PRICE>10.90</PRICE>
         <YEAR>1985</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Red</TITLE>
-        <ARTIST>The Communards</ARTIST>
-        <COUNTRY>UK</COUNTRY>
-        <COMPANY>London</COMPANY>
-        <PRICE>7.80</PRICE>
-        <YEAR>1987</YEAR>
-    </CD>
-    <CD>
-        <TITLE>Unchain my heart</TITLE>
-        <ARTIST>Joe Cocker</ARTIST>
+        <URL>ceva</URL>
+        <ABOUT>Brightburn is a 2019 American superhero horror film directed by David Yarovesky, written by Mark Gunn and Brian Gunn, and produced by James Gunn and Kenneth Huang. It stars Elizabeth Banks, David Denman, Jackson A. Dunn, Matt Jones and Meredith Hagner. It follows Brandon Breyer, a young boy of extraterrestrial origin reared on Earth who realizes he has superpowers. Upon learning of them and being brainwashed by the ship he arrived in, Brandon rejects his humanity and turns to evil, opting to terrorize his hometown, including his parents. The film was produced and financed by Screen Gems, Stage 6 Films, The H Collective and Troll Court Entertainment.Brightburn was announced as Untitled James Gunn Horror Project in December 2017. Aside from Gunn producing the film, his cousin Mark and brother Brian Gunn wrote the screenplay. Principal photography began in March 2018 and wrapped in May of that same year. It adapts the concept of Superman for explicit horror.Brightburn was released in the United States on May 24, 2019 by Sony Pictures Releasing. It received mixed reviews from critics, who felt that the film did not deliver on the full potential of its premise. The film earned $32 million against a budget of $6–12 million.
+        </ABOUT>
+    </MOVIE>
+    <MOVIE>
+        <TITLE>Brightburn</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
         <COUNTRY>USA</COUNTRY>
-        <COMPANY>EMI</COMPANY>
-        <PRICE>8.20</PRICE>
-        <YEAR>1987</YEAR>
-    </CD>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1985</YEAR>
+        <URL>ceva</URL>
+        <ABOUT>Brightburn is a 2019 American superhero horror film directed by David Yarovesky, written by Mark Gunn and Brian Gunn, and produced by James Gunn and Kenneth Huang. It stars Elizabeth Banks, David Denman, Jackson A. Dunn, Matt Jones and Meredith Hagner. It follows Brandon Breyer, a young boy of extraterrestrial origin reared on Earth who realizes he has superpowers. Upon learning of them and being brainwashed by the ship he arrived in, Brandon rejects his humanity and turns to evil, opting to terrorize his hometown, including his parents. The film was produced and financed by Screen Gems, Stage 6 Films, The H Collective and Troll Court Entertainment.Brightburn was announced as Untitled James Gunn Horror Project in December 2017. Aside from Gunn producing the film, his cousin Mark and brother Brian Gunn wrote the screenplay. Principal photography began in March 2018 and wrapped in May of that same year. It adapts the concept of Superman for explicit horror.Brightburn was released in the United States on May 24, 2019 by Sony Pictures Releasing. It received mixed reviews from critics, who felt that the film did not deliver on the full potential of its premise. The film earned $32 million against a budget of $6–12 million.
+        </ABOUT>
+    </MOVIE>
+    <MOVIE>
+        <TITLE>Brightburn</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1985</YEAR>
+        <URL>ceva</URL>
+        <ABOUT>Brightburn is a 2019 American superhero horror film directed by David Yarovesky, written by Mark Gunn and Brian Gunn, and produced by James Gunn and Kenneth Huang. It stars Elizabeth Banks, David Denman, Jackson A. Dunn, Matt Jones and Meredith Hagner. It follows Brandon Breyer, a young boy of extraterrestrial origin reared on Earth who realizes he has superpowers. Upon learning of them and being brainwashed by the ship he arrived in, Brandon rejects his humanity and turns to evil, opting to terrorize his hometown, including his parents. The film was produced and financed by Screen Gems, Stage 6 Films, The H Collective and Troll Court Entertainment.Brightburn was announced as Untitled James Gunn Horror Project in December 2017. Aside from Gunn producing the film, his cousin Mark and brother Brian Gunn wrote the screenplay. Principal photography began in March 2018 and wrapped in May of that same year. It adapts the concept of Superman for explicit horror.Brightburn was released in the United States on May 24, 2019 by Sony Pictures Releasing. It received mixed reviews from critics, who felt that the film did not deliver on the full potential of its premise. The film earned $32 million against a budget of $6–12 million.
+        </ABOUT>
+    </MOVIE>
+    <MOVIE>
+        <TITLE>Brightburn</TITLE>
+        <ARTIST>Bob Dylan</ARTIST>
+        <COUNTRY>USA</COUNTRY>
+        <COMPANY>Columbia</COMPANY>
+        <PRICE>10.90</PRICE>
+        <YEAR>1985</YEAR>
+        <URL>ceva</URL>
+        <ABOUT>Brightburn is a 2019 American superhero horror film directed by David Yarovesky, written by Mark Gunn and Brian Gunn, and produced by James Gunn and Kenneth Huang. It stars Elizabeth Banks, David Denman, Jackson A. Dunn, Matt Jones and Meredith Hagner. It follows Brandon Breyer, a young boy of extraterrestrial origin reared on Earth who realizes he has superpowers. Upon learning of them and being brainwashed by the ship he arrived in, Brandon rejects his humanity and turns to evil, opting to terrorize his hometown, including his parents. The film was produced and financed by Screen Gems, Stage 6 Films, The H Collective and Troll Court Entertainment.Brightburn was announced as Untitled James Gunn Horror Project in December 2017. Aside from Gunn producing the film, his cousin Mark and brother Brian Gunn wrote the screenplay. Principal photography began in March 2018 and wrapped in May of that same year. It adapts the concept of Superman for explicit horror.Brightburn was released in the United States on May 24, 2019 by Sony Pictures Releasing. It received mixed reviews from critics, who felt that the film did not deliver on the full potential of its premise. The film earned $32 million against a budget of $6–12 million.
+        </ABOUT>
+    </MOVIE>
 </CATALOG>

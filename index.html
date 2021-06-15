@@ -40,46 +40,48 @@
             </div>
         </div>
     </nav>
-    <!-- <button onclick="loadDoc()">Apasa-ma</button> -->
+    <button type="button" onclick="loadDoc()">Get my CD collection</button>
     <table id="demo"></table>
     <script>
-          //xml file 
+        //xml file 
 
-        // function loadDoc() {
-        //     var xhttp = new XMLDocument();
-        //     xhttp.onreadystatechange = function () {
-        //         if (this.readyState == 4 && this.status == 200) {
-        //             myFunction(this);
-        //         }
-        //     };
-        //     xhttp.open("GET", "xml.xml", true);
-        //     xhttp.send();
-        // }
-        // function myFunction(xml) {
-        //     let i;
-        //     let xmlDoc = xml.responseXML;
-        //     let table = "<tr><th>Artist</th><th>Title</th></tr>";
-        //     let x = xmlDoc.getElementsByTagName("CD");
-        //     for (i = 0; i < x.length; i++) {
-        //         table += "<tr><td>" +
-        //             x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
-        //             "</td><td>" +
-        //             x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
-        //             "</td><td>" +
-        //             x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue + "</td></tr>";
-        //     }
-        //     document.getElementById("demo").innerHTML = table;
-        // }
+        function loadDoc() {
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function () {
+                if (this.readyState == 4 && this.status == 200) {
+                    myFunction(this);
+                }
+            };
+            xhttp.open("GET", "xml.xml", true);
+            xhttp.send();
+        }
+        function myFunction(xml) {
+            let i;
+            let xmlDoc = xml.responseXML;
+            let div = "<div class=\"about-container\"><div class=\"about-css\">";
+
+            let x = xmlDoc.getElementsByTagName("MOVIE");
+            for (i = 0; i < x.length; i++) {
+                div += "<p>" +
+                    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue + "</p><p>" +
+                    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue + "</p><p>" +
+                    x[i].getElementsByTagName("ABOUT")[0].childNodes[0].nodeValue + "</p><p>" +
+                    x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue + "</p></div>";
+            }
+            document.getElementById("demo").innerHTML = div;
+        }
 
         //end xml file
     </script>
+
+
     <script>
 
-        array = {
-            name: ['Burn Bright ', 'Lethal Weapon'],
-            url: ['https://celia.evosrv.com/EvoSrv/Wx9j3o25xanysTDw4ogG.mp4?md5=2wzHXWrWYOV_hMBjqs9hlA&expires=1623392292', 'https://celia.evosrv.com/EvoStreams/uawATVuTfsZHaInEdoWU.mp4.mp4?md5=fvQ-25RHsC2NsNgfxHdWpw&expires=1623392346'],
-            imgsrc: ['loft.jpg', 'meeting.jpg']
-        };
+        // array = {
+        //     name: ['Burn Bright ', 'Lethal Weapon'],
+        //     url: ['https://celia.evosrv.com/EvoSrv/Wx9j3o25xanysTDw4ogG.mp4?md5=2wzHXWrWYOV_hMBjqs9hlA&expires=1623392292', 'https://celia.evosrv.com/EvoStreams/uawATVuTfsZHaInEdoWU.mp4.mp4?md5=fvQ-25RHsC2NsNgfxHdWpw&expires=1623392346'],
+        //     imgsrc: ['loft.jpg', 'meeting.jpg']
+        // };
         // for (let i = 0; i < array.url.length; i++) {
 
         //     var b = document.write('<img width="450"src = "assets/img/' + array.imgsrc[i] + '">');
@@ -88,63 +90,46 @@
         // console.log(array);
     </script>
     <div class="list-container">
+
+        <script>
+            let n;
+            array = {
+                name: ['Burn Bright ', 'Lethal Weapon'],
+                url: ['https://celia.evosrv.com/EvoSrv/Wx9j3o25xanysTDw4ogG.mp4?md5=2wzHXWrWYOV_hMBjqs9hlA&expires=1623392292', 'https://celia.evosrv.com/EvoStreams/uawATVuTfsZHaInEdoWU.mp4.mp4?md5=fvQ-25RHsC2NsNgfxHdWpw&expires=1623392346'],
+                imgsrc: ['https://upload.wikimedia.org/wikipedia/en/f/fa/Brightburn_film_poster.png', 'meeting.jpg']
+            };
+            for (let i = 0; i < array.url.length; i++) {
+                console.log();
+                n += document.write('<div class="list-card"><a href="https://mealex.me"><div class="list"><img src="https://upload.wikimedia.org/wikipedia/en/f/fa/Brightburn_film_poster.png" alt=""></div><div class="list-names"><a href="">' + array.name[i] + '</a></div></a></div>')
+
+            };
+
+        </script>
         <div class="list-card">
             <a href="https://mealex.me">
                 <div class="list">
-                    <img src="assets/img/brightburn.jpg" alt="">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/f/fa/Brightburn_film_poster.png" alt="">
                 </div>
                 <div class="list-names">
-                    <a href="">ceva</a>
+                    <a href="vizioneaza.html" id="1" onclick=numeFilm(this.innerHTML)>Bghtburn</a>
+                    <button onclick="numeFilm(this)" value="bright burn">haide </button>
 
+                    <script>
+                        let a = document.getElementById('1');
+                        console.log(a.value);
+                    </script>
+                   
                 </div>
             </a>
         </div>
-        <div class="list-card">
-            <a href="https://mealex.me">
-                <div class="list">
-                    <img src="assets/img/desk.jpg" alt="">
-                </div>
-                <div class="list-names">
-                    <a href="">ceva</a>
 
-                </div>
-            </a>
-        </div>
-        <div class="list-card">
-            <a href="https://mealex.me">
-                <div class="list">
-                    <img src="assets/img/desk.jpg" alt="">
-                </div>
-                <div class="list-names">
-                    <a href="">ceva</a>
 
-                </div>
-            </a>
-        </div>
-        <div class="list-card">
-            <a href="https://mealex.me">
-                <div class="list">
-                    <img src="assets/img/desk.jpg" alt="">
-                </div>
-                <div class="list-names">
-                    <a href="">ceva</a>
-
-                </div>
-            </a>
-        </div>
-        <div class="list-card">
-            <a href="https://mealex.me">
-                <div class="list">
-                    <img src="assets/img/desk.jpg" alt="">
-                </div>
-                <div class="list-names">
-                    <a href="">ceva</a>
-
-                </div>
-            </a>
-        </div>
-       
     </div>
+    <form action="vizioneaza.html?id=" method="GET">
+        <input type="text">
+        <input type="submit" value="film">
+    </form>
+
 
     <!-- <section class="photo-gallery">
         <div class="container">
@@ -168,6 +153,7 @@
             </div>
         </div>
     </section> -->
+
     <footer class="footer-clean">
         <div class="container">
             <div class="row justify-content-center">
