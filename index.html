@@ -17,66 +17,56 @@
     <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/renderMovies.js"></script>
+
+
 </head>
 
-<body>
-    <nav class="navbar navbar-light navbar-expand-md navigation-clean-button">
-        <div class="container"><a class="navbar-brand" href="#">Online Movies</a><button data-bs-toggle="collapse"
-                class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle
-                    navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navcol-1">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+<body class="">
+    <nav id="nav" class="navbar navbar-light navbar-expand-md navigation-clean-button ">
+        <div class="container ">
+            <a class="navbar-brand" href="#">Online Movies</a>
+            <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                <span class="visually-hidden">Togglenavigation</span>
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navcol-1">
+                <ul class="navbar-nav me-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link " href="index.html">Home</a>
+                    </li>
                     <li class="nav-item"><a class="nav-link " href="filme.html">Filme</a></li>
                     <li class="nav-item"><a class="nav-link" href="seriale.html">Seriale</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false"
-                            data-bs-toggle="dropdown" href="#">Profile</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="#">View Profile&nbsp;</a><a
-                                class="dropdown-item" href="#">Settings&nbsp;</a><a class="dropdown-item" href="#">Third
-                                Item</a></div>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown"
+                            href="#">Profile</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">View Profile&nbsp;</a>
+                            <a class="dropdown-item" href="#">Settings&nbsp;</a>
+                            <a class="dropdown-item" href="#">ThirdItem</a>
+                        </div>
+
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown"
+                            href="#">Tema</a>
+                        <div class="dropdown-menu">
+                            <button href="#" class="dropdown-item" id="black">Intunecata</button>
+                            <button href="#" class="dropdown-item" id="white">Deschisa</button>
+                        </div>
                     </li>
                 </ul><span class="navbar-text actions"> <a class="login" href="login.html">Log In</a><a
                         class="btn btn-light action-button" role="button" href="registration.html">Sign Up</a></span>
             </div>
         </div>
     </nav>
-    <button type="button" onclick="loadDoc()">Get my CD collection</button>
-    <table id="demo"></table>
-    <script>
-        //xml file 
 
-        function loadDoc() {
-            var xhttp = new XMLHttpRequest();
-            xhttp.onreadystatechange = function () {
-                if (this.readyState == 4 && this.status == 200) {
-                    myFunction(this);
-                }
-            };
-            xhttp.open("GET", "xml.xml", true);
-            xhttp.send();
-        }
-        function myFunction(xml) {
-            let i;
-            let xmlDoc = xml.responseXML;
-            let div = "<div class=\"about-container\"><div class=\"about-css\">";
-
-            let x = xmlDoc.getElementsByTagName("MOVIE");
-            for (i = 0; i < x.length; i++) {
-                div += "<p>" +
-                    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue + "</p><p>" +
-                    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue + "</p><p>" +
-                    x[i].getElementsByTagName("ABOUT")[0].childNodes[0].nodeValue + "</p><p>" +
-                    x[i].getElementsByTagName("YEAR")[0].childNodes[0].nodeValue + "</p></div>";
-            }
-            document.getElementById("demo").innerHTML = div;
-        }
-
-        //end xml file
-    </script>
+    <div class="list">
+    </div>
 
 
     <script>
-
+        setTimeout(pushToArray(), 0);
         // array = {
         //     name: ['Burn Bright ', 'Lethal Weapon'],
         //     url: ['https://celia.evosrv.com/EvoSrv/Wx9j3o25xanysTDw4ogG.mp4?md5=2wzHXWrWYOV_hMBjqs9hlA&expires=1623392292', 'https://celia.evosrv.com/EvoStreams/uawATVuTfsZHaInEdoWU.mp4.mp4?md5=fvQ-25RHsC2NsNgfxHdWpw&expires=1623392346'],
@@ -89,42 +79,10 @@
         // }
         // console.log(array);
     </script>
-    <div class="list-container">
-
-        <script>
-            let n;
-            array = {
-                name: ['Burn Bright ', 'Lethal Weapon'],
-                url: ['https://celia.evosrv.com/EvoSrv/Wx9j3o25xanysTDw4ogG.mp4?md5=2wzHXWrWYOV_hMBjqs9hlA&expires=1623392292', 'https://celia.evosrv.com/EvoStreams/uawATVuTfsZHaInEdoWU.mp4.mp4?md5=fvQ-25RHsC2NsNgfxHdWpw&expires=1623392346'],
-                imgsrc: ['https://upload.wikimedia.org/wikipedia/en/f/fa/Brightburn_film_poster.png', 'meeting.jpg']
-            };
-            for (let i = 0; i < array.url.length; i++) {
-                console.log();
-                n += document.write('<div class="list-card"><a href="https://mealex.me"><div class="list"><img src="https://upload.wikimedia.org/wikipedia/en/f/fa/Brightburn_film_poster.png" alt=""></div><div class="list-names"><a href="">' + array.name[i] + '</a></div></a></div>')
-
-            };
-
-        </script>
-        <div class="list-card">
-            <a href="https://mealex.me">
-                <div class="list">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/f/fa/Brightburn_film_poster.png" alt="">
-                </div>
-                <div class="list-names">
-                    <a href="vizioneaza.html" id="1" onclick=numeFilm(this.innerHTML)>Bghtburn</a>
-                    <button onclick="numeFilm(this)" value="bright burn">haide </button>
-
-                    <script>
-                        let a = document.getElementById('1');
-                        console.log(a.value);
-                    </script>
-                   
-                </div>
-            </a>
+    <center>
+        <div class="list-container">
         </div>
-
-
-    </div>
+    </center>
     <form action="vizioneaza.html?id=" method="GET">
         <input type="text">
         <input type="submit" value="film">
@@ -154,7 +112,7 @@
         </div>
     </section> -->
 
-    <footer class="footer-clean">
+    <footer class="footer-clean " id="footer">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-4 col-md-3 item">
@@ -193,6 +151,10 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
     <script src="assets/js/Lightbox-Gallery.js"></script>
+    <script src="assets/js/changeThemes.js"></script>
+
+
+
 </body>
 
 </html>

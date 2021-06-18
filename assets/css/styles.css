@@ -1,23 +1,30 @@
 .list-container {
+    background-color: gray;
     display: grid;
     justify-content: center;
     align-items:center;
     grid-template-columns:auto auto auto;
     grid-gap:10px;
-    width: auto;
-    height: auto;
+    width: fit-content;
+    height: fit-content;
    
+}
+
+img{
+    width:147px;
+    height:247px;
 }
 
 .list {
-    
-   
-   
+    display: grid;
+    justify-content: center;
+    grid-template-columns:auto auto auto auto;
+    grid-gap:13px;
 }
 
 .list img {
-   height:125px;
-   width:85px;
+   width:147px;
+   height:247px;
 }
 .list-names {
     text-align: center;
@@ -43,4 +50,54 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
+.about-container{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    grid-gap:13px;
+}
+.about-css{
+   width: fit-content;
+}
+
+.about-css p{
+    width: 300px;
+}
+#demo{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{
+    --black:rgb(0, 0, 0);
+    --lightgray:rgb(230, 219, 219);
+    --gray:rgb(134, 134, 134);
+    --white:rgb(255, 255, 255);
+    --green:rgb(20, 163, 20);
+    --bg: var(--black);
+    --text:var(--white);
+    --bg-nav:linear-gradient(to right,var(--lightgray),var(gray));
+    
+}
+
+.black{
+    background-color: var(--black);
+    color: var(--white);
+    --nav-color:rgb(255, 255, 255);
+    --nav-color-hover:rgb(175, 142, 142);
+    transition: background 500ms ease-in-out, color 1000ms;
+
+
+}
+
+.white{  
+    background-color: var(--white);
+    color: var(--black);
+    --nav-color:rgb(0, 0, 0);
+    --nav-color-hover:rgb(131, 113, 113);
+    transition: background 500ms ease-in-out, color 1000ms;
+
 }
