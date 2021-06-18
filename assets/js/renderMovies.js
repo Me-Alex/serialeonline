@@ -24,10 +24,9 @@ function pushToArray() {
 
 
             }
-
             for (let i = 0; i < array.about.length; i++) {
                 console.log(array.urlPoster[i]);
-                var elem = document.querySelector('.list');
+                var elem = document.querySelector('.grid');
                 let listcard = "<div class='list-card'>";
                 let a = "<a href='https://mealex.me'>";
                 let divlist = "<div class='list'>";
@@ -35,21 +34,21 @@ function pushToArray() {
                 let divlistEnd = "</div>";
                 let divmovienames = "<div class='list-names'>";
                 // let a2 = "<a href='vizioneaza.html' id='1'>"+array.title[i]+"</a>";
-                let p="<p>"+array.title[i]+"</p>";
+                let p = "<p>" + array.title[i] + "</p>";
                 let button = "<button value='brightburn'>haide </button>"
                 let divmovienamesEnd = "</div></a></div>";
                 let aEnd = "";
                 let listcardEnd = "";
-                let wholeelement=listcard 
-                + a 
-                + divlist 
-                + img 
-                + divlistEnd 
-                + divmovienames 
-                +p
-                + divmovienamesEnd 
-                + aEnd 
-                + listcardEnd;
+                let wholeelement = listcard
+                    + a
+                    + divlist
+                    + img
+                    + divlistEnd
+                    + divmovienames
+                    + p
+                    + divmovienamesEnd
+                    + aEnd
+                    + listcardEnd;
                 elem.innerHTML += wholeelement;
             }
         }
@@ -58,7 +57,5 @@ function pushToArray() {
     };
     xhttp.open("GET", "xml.xml", true);
     xhttp.send();
-    console.log(array);
-
-
+    
 }

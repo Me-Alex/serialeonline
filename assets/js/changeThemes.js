@@ -11,6 +11,7 @@ const theme = localStorage.getItem('theme');
 if (theme) {
     console.log(theme);
     body.classList.remove("white");
+    body.classList.remove("black");
     body.classList.add(theme);
     nav.classList.add(theme);
     foo.classList.add(theme);
