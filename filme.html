@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>movies</title>
+    <base href="/">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
@@ -17,10 +18,13 @@
     <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/renderMovies.js"></script>
+
+
 </head>
 
 <body>
-    <nav id="nav"class="navbar navbar-light navbar-expand-md navigation-clean-button ">
+    <nav id="nav" class="navbar navbar-light navbar-expand-md navigation-clean-button ">
         <div class="container ">
             <a class="navbar-brand" href="#">Online Movies</a>
             <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
@@ -30,23 +34,25 @@
             <div class="collapse navbar-collapse " id="navcol-1">
                 <ul class="navbar-nav me-auto ">
                     <li class="nav-item ">
-                        <a class="nav-link " href="index.html">Home</a>
+                        <a class="nav-link " href="">Home</a>
                     </li>
-                    <li class="nav-item"><a class="nav-link " href="filme.html">Filme</a></li>
-                    <li class="nav-item"><a class="nav-link" href="seriale.html">Seriale</a></li>
+                    <li class="nav-item"><a class="nav-link " href="filme">Filme</a></li>
+                    <li class="nav-item"><a class="nav-link" href="seriale">Seriale</a></li>
                     <li class="nav-item dropdown">
-                        <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown"href="#">Profile</a>
+                        <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown"
+                            href="#">Profile</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">View Profile&nbsp;</a>
                             <a class="dropdown-item" href="#">Settings&nbsp;</a>
                             <a class="dropdown-item" href="#">ThirdItem</a>
                         </div>
-                        
+
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="dropdown-toggle nav-link"aria-expanded="false" data-bs-toggle="dropdown"href="#">Tema</a>
+                        <a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown"
+                            href="#">Tema</a>
                         <div class="dropdown-menu">
-                            <button href="#" class="dropdown-item"id="black">Intunecata</button>
+                            <button href="#" class="dropdown-item" id="black">Intunecata</button>
                             <button href="#" class="dropdown-item" id="white">Deschisa</button>
                         </div>
                     </li>
@@ -55,6 +61,7 @@
             </div>
         </div>
     </nav>
+
     <!-- <script>
         array = {
             name: ['Burn Bright ', 'Lethal Weapon'],
@@ -69,7 +76,7 @@
         console.log(array);
     </script> -->
     
-    <div class="list-container">
+    <!-- <div class="list-container">
         <div class="list">
             <script>
                 for (let i = 0; i < 20; i++) {
@@ -79,7 +86,7 @@
             </script>
 
         </div>
-    </div>
+    </div> -->
     <footer class="footer-clean " id="footer">
         <div class="container">
             <div class="row justify-content-center">
