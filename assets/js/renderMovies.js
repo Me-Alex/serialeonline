@@ -25,10 +25,10 @@ function pushToArray() {
 
             }
             for (let i = 0; i < array.about.length; i++) {
-                console.log(array.urlPoster[i]);
+                // console.log(array.urlPoster[i]);
                 var elem = document.querySelector('.grid');
                 let listcard = "<div class='list-card'>";
-                let a = "<a id='a'href=''>";
+                let a = "<a id='a'href='"+array.title[i]+"'>";
                 let divlist = "<div class='list'>";
                 let img = "<img src='" + array.urlPoster[i] + "'>";
                 let divlistEnd = "</div>";
@@ -51,8 +51,8 @@ function pushToArray() {
                     + listcardEnd;
                 elem.innerHTML += wholeelement;
             }
+            console.log(array);
         }
-        
 
     };
     xhttp.open("GET", "xml.xml", true);
