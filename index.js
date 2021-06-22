@@ -37,9 +37,7 @@ let array = {
 array.title.map((e)=>{
     app.get('/'+e+'',async (request,response)=>{
         console.log(e);
-      
-        // response.send(await writeFile('vizioneaza.html','utf-8'));
-        response.write()
+        response.send(await readFile('vizioneaza.html','utf-8'));
     });
 });
 console.log(array);
