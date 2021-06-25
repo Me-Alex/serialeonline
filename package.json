@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "preinstall": "node is-pages && mv .npmrc.pages .npmrc || echo \"Not Pages\"",
-
+    "start": "node ."
   },
   "repository": {
     "type": "git",
